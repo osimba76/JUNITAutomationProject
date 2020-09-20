@@ -14,6 +14,7 @@ public class LaunchBrowser {
 		driver = BrowserFactory.LaunchBrowser();
 	}
 	
+	
 	public void teardown() {
 		driver.close();
 		driver.quit();
